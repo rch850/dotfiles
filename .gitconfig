@@ -1,0 +1,11 @@
+[user]
+	name = rch850
+	email = rich850@gmail.com
+[alias]
+	a = add
+	b = branch
+	c = commit
+	d = diff
+	co = checkout
+	s = status
+
