@@ -8,3 +8,11 @@ function nvm
   bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
 end
 
+# Load pyenv automatically by appending
+# the following to ~/.config/fish/config.fish:
+
+status --is-interactive; and source (pyenv init -|psub)
+status --is-interactive; and source (pyenv virtualenv-init -|psub)
+
+set -x -U GOPATH $HOME/go
+set -x PATH $PATH $GOPATH/bin
