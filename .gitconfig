@@ -1,13 +1,8 @@
 [user]
 	name = rch850
 	email = rich850@gmail.com
-[alias]
-	a = add
-	b = branch
-	c = commit
-	d = diff
-	dc = diff --cached
-	co = checkout
-	s = status
-	cp = cherry-pick
+[include]
+	path = ~/dotfiles/gitalias.txt
+[ghq]
+	root = ~/repos
 
