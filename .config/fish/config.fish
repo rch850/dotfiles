@@ -16,3 +16,8 @@ status --is-interactive; and source (pyenv virtualenv-init -|psub)
 
 set -x -U GOPATH $HOME/go
 set -x PATH $PATH $GOPATH/bin
+
+function g -d 'cd ghq'
+  set repo (ghq | peco)
+  if [ "$repo" != "" ]; cd (ghq root)/$repo; end
+end
