@@ -19,7 +19,7 @@ fi
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 echo "Create symbolic links..."
-for file in .config .gitconfig; do
+for file in .config .gitconfig .hyper.js; do
   if [[ -e ~/${file} ]]; then
     echo "~/${file} already exists." >&2
     ls -l ~/${file}
