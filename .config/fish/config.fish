@@ -24,3 +24,6 @@ function g -d 'cd ghq'
   set repo (ghq list | peco)
   if [ "$repo" != "" ]; cd (ghq root)/$repo; end
 end
+
+# Rust
+set -x PATH $HOME/.cargo/bin $PATH
