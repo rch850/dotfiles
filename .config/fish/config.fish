@@ -27,3 +27,4 @@ end
 
 # Rust
 set -x PATH $HOME/.cargo/bin $PATH
+source /usr/local/opt/asdf/asdf.fish
