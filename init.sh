@@ -6,7 +6,10 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install commands
-brew install ghq peco pyenv
+brew install gpg asdf ghq peco pyenv
+
+# Install adsf-vm plugins
+asdf plugin add nodejs
 
 # Install pyenv-virtualenv
 if [[ -e $(pyenv root)/plugins/pyenv-virtualenv ]]; then
