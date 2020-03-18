@@ -3,6 +3,8 @@
 	email = rich850@gmail.com
 [include]
 	path = ~/dotfiles/gitalias.txt
+[commit]
+	template = ~/dotfiles/.commit_template
 [ghq]
 	root = ~/repos
 
