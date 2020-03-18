@@ -6,10 +6,6 @@ if not functions -q fisher
     fish -c fisher
 end
 
-function nvm
-  bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
-end
-
 # Load pyenv automatically by appending
 # the following to ~/.config/fish/config.fish:
 
