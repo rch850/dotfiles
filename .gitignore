@@ -1,8 +1,12 @@
 .config/configstore
+.config/dask
 .config/fish/completions
-.config/fish/fishd.*
 .config/fish/fish_variables
+.config/fish/fishd.*
 .config/fish/functions
-.config/fisherman
 .config/fisher
-
+.config/fisherman
+.config/gcloud
+.config/MaixPyIDE
+.config/oni
+.config/yarn/global/node_modules
