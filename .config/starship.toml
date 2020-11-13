@@ -1,0 +1,3 @@
+[gcloud]
+# To hide email address.
+format = "[$symbol$active]($style) "
