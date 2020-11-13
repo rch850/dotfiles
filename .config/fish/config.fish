@@ -6,6 +6,10 @@ if not functions -q fisher
     fish -c fisher
 end
 
+command -v starship >/dev/null || brew install starship
+# https://starship.rs/
+starship init fish | source
+
 # Load pyenv automatically by appending
 # the following to ~/.config/fish/config.fish:
 
