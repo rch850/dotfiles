@@ -24,3 +24,5 @@
 	clean = git-lfs clean -- %f
 [init]
 	defaultBranch = main
+[push]
+	default = current
